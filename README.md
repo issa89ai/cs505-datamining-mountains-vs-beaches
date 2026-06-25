@@ -37,9 +37,13 @@ Two versions are included:
 
 - Data preprocessing and cleaning
 - Categorical feature encoding (Label Encoding / One-Hot Encoding)
-- Exploratory Data Analysis (EDA)
-- Decision Tree classification (scikit-learn)
-- Visualization and interpretation of results
+- SMOTE for class balancing
+- StandardScaler + PCA (95% variance retained)
+- Exploratory Data Analysis (EDA) — histograms, violin plots, heatmaps, scatter plots
+- Classification: Decision Tree, SVM, Neural Network (MLP)
+- Hyperparameter tuning: GridSearchCV, RandomizedSearchCV, HalvingGridSearchCV
+- Model validation: K-Fold Cross-Validation, Leave-One-Out
+- Learning curve visualization
 
 ---
 
