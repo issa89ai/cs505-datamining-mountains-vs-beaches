@@ -96,4 +96,5 @@ The code is intended for educational and research purposes only.
 ## 👤 Author
 
 **Ahmad Issa**  
-Machine Learning Engineer | AI & Data Science
+Machine Learning Engineer | AI & Data Science  
+[GitHub](https://github.com/issa89ai) · [LinkedIn](https://linkedin.com/in/ahmadissa)
