@@ -1,196 +1,103 @@
-\# CS505 – Data Mining  
+# CS505 – Data Mining: Mountains vs. Beaches Preferences
 
-\## Final Project: Mountains vs. Beaches Preferences Analysis
+## 📘 Course Information
 
-
-
-This repository contains the final project for \*\*CS505 – Data Mining\*\* at Bishop’s University.
-
-
-
-The project analyzes survey data to understand preferences between \*\*mountains\*\* and \*\*beaches\*\* using data preprocessing, feature encoding, exploratory analysis, and data mining techniques implemented in Python.
-
-
+- **Course:** CS505 – Data Mining  
+- **Term:** Fall 2024  
+- **Institution:** Bishop's University  
+- **Project Type:** Final Project  
+- **Topic:** Preference Analysis using Data Mining Techniques  
 
 ---
 
+## 📌 Project Overview
 
-
-\## 📌 Project Overview
-
-
-
-The goal of this project is to apply \*\*data mining methods\*\* to a real-world preference dataset and extract meaningful patterns and insights.
-
-
+This project analyzes survey data to understand preferences between **mountains** and **beaches** using data preprocessing, feature encoding, exploratory analysis, and data mining techniques implemented in Python.
 
 Key tasks include:
-
-\- Data cleaning and preprocessing
-
-\- Feature encoding
-
-\- Exploratory data analysis (EDA)
-
-\- Interpretation of results using data mining concepts
-
-
+- Data cleaning and preprocessing
+- Categorical feature encoding
+- Exploratory Data Analysis (EDA)
+- Classification and pattern mining
+- Interpretation of results using data mining concepts
 
 ---
 
+## 📊 Dataset
 
+The dataset consists of survey responses capturing user preferences related to mountains vs. beaches, travel habits, and lifestyle indicators.
 
-\## 📊 Dataset
-
-
-
-The dataset consists of survey responses capturing user preferences related to:
-
-\- Mountains vs. beaches
-
-\- Travel habits
-
-\- Lifestyle and preference indicators
-
-
-
-Two versions of the dataset are used:
-
-\- Raw dataset
-
-\- Encoded dataset for analysis
-
-
+Two versions are included:
+- `data/mountains_vs_beaches_preferences.csv` — raw survey data
+- `data/encoded_dataset.csv` — preprocessed and encoded version ready for analysis
 
 ---
 
+## 🧠 Techniques Used
 
-
-\## 🧠 Techniques Used
-
-
-
-\- Data preprocessing and cleaning  
-
-\- Categorical feature encoding  
-
-\- Exploratory Data Analysis (EDA)  
-
-\- Visualization and interpretation  
-
-\- Data mining principles
-
-
+- Data preprocessing and cleaning
+- Categorical feature encoding (Label Encoding / One-Hot Encoding)
+- Exploratory Data Analysis (EDA)
+- Decision Tree classification (scikit-learn)
+- Visualization and interpretation of results
 
 ---
 
+## 🛠️ Technologies Used
 
-
-\## 🛠️ Technologies Used
-
-
-
-\- Python  
-
-\- Jupyter Notebook  
-
-\- Pandas  
-
-\- NumPy  
-
-\- Matplotlib / Seaborn  
-
-
+- Python 3
+- Jupyter Notebook
+- Pandas, NumPy
+- Matplotlib, Seaborn
+- scikit-learn
 
 ---
 
+## 📂 Project Structure
 
-
-\## 📂 Project Structure
-
-
-
+```
 cs505-datamining-mountains-vs-beaches/
-
-├── notebooks/ # Jupyter notebook with analysis
-
-├── data/ # Raw and encoded datasets
-
-├── report/ # Final project report (PDF)
-
-├── README.md # Project documentation
-
-└── .gitignore
-
+├── notebooks/
+│   └── Final_Project.ipynb     # Main analysis notebook
+├── data/
+│   ├── mountains_vs_beaches_preferences.csv
+│   └── encoded_dataset.csv
+├── report/
+│   └── Final_Project.pdf
+├── .gitignore
+└── README.md
+```
 
 ---
 
+## ▶️ How to Run
 
+1. Open the notebook in Jupyter or Google Colab:
+   ```bash
+   jupyter notebook notebooks/Final_Project.ipynb
+   ```
 
-\## ▶️ How to Run
+2. Install required libraries if needed:
+   ```bash
+   pip install pandas numpy matplotlib seaborn scikit-learn
+   ```
 
+---
 
+## 📝 Notes
 
-1\. Open the notebook located in the `notebooks/` folder  
-
-2\. Make sure the required libraries are installed:
-
-```bash
-
-pip install pandas numpy matplotlib seaborn
-
-
-
-📝 Notes
-
-
-
-
-
-
-
-This project was developed as part of an academic course.
-
-
-
-
-
-
-
+This project was developed as part of an academic course.  
 The code is intended for educational and research purposes only.
 
+## 👤 Author
 
-
-
-
-
-
-No external datasets are required beyond those provided with the assignment.
-
-
-
-
-
-
-
-👤 Author
-
-
-
-
-
-
-
-Ahmad Issa
-
-
-
-Bishop’s University
-
-
-
+**Ahmad Issa**  
+Bishop's University  
 Department of Computer Science
 
+---
 
-
-
+**Ahmad Issa**  
+Master's Student in Computer Science  
+Bishop's University  
+Student ID: 002230777
