@@ -92,12 +92,4 @@ The code is intended for educational and research purposes only.
 ## 👤 Author
 
 **Ahmad Issa**  
-Bishop's University  
-Department of Computer Science
-
----
-
-**Ahmad Issa**  
-Master's Student in Computer Science  
-Bishop's University  
-Student ID: 002230777
+Machine Learning Engineer | AI & Data Science
